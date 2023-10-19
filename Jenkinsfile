@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
 	    environment {
-                HOME="."
+                HOME='.'
             }
             steps {
                 sh 'mvn --version'
